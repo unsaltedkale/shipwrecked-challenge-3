@@ -20,6 +20,7 @@ public class PlayerMovement : MonoBehaviour
     public string rightKey;
 
     public TextMeshProUGUI namePlate;
+    public Vector3 offset = new Vector3(0, 0.1f, 0);
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

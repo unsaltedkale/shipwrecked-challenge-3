@@ -159,6 +159,78 @@ MonoBehaviour:
   - i
   - o
   - p
+  - a
+  - s
+  - d
+  - f
+  - g
+  - h
+  - j
+  - k
+  - l
+  - ;
+  - z
+  - x
+  - c
+  - v
+  - b
+  - n
+  - m
+  - ','
+  - .
+  - /
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 0
+  playerColors3: []
+  playerColors:
+  - serializedVersion: 2
+    rgba: 4283519475
+  - serializedVersion: 2
+    rgba: 4281043701
+  - serializedVersion: 2
+    rgba: 4286502138
+  - serializedVersion: 2
+    rgba: 4281977008
+  - serializedVersion: 2
+    rgba: 4278238783
+  - serializedVersion: 2
+    rgba: 4282674984
+  - serializedVersion: 2
+    rgba: 8440351
+  - serializedVersion: 2
+    rgba: 4293251945
+  - serializedVersion: 2
+    rgba: 4289560592
+  - serializedVersion: 2
+    rgba: 4286068255
+  - serializedVersion: 2
+    rgba: 15959189
+  - serializedVersion: 2
+    rgba: 4289998177
+  - serializedVersion: 2
+    rgba: 4291764706
+  - serializedVersion: 2
+    rgba: 4281677109
+  - serializedVersion: 2
+    rgba: 4287113954
+  - serializedVersion: 2
+    rgba: 4287401100
+  - serializedVersion: 2
+    rgba: 4279506055
+  - serializedVersion: 2
+    rgba: 4281492648
+  - serializedVersion: 2
+    rgba: 4278190080
+  - serializedVersion: 2
+    rgba: 4294967295
   playerPrefab: {fileID: 7900995440692179688, guid: da8dd6bf1da864605ba5edbd49ec4d9f, type: 3}
 --- !u!4 &433058100
 Transform:

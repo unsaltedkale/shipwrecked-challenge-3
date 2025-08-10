@@ -1,9 +1,13 @@
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 
 public class PlayerCreator : MonoBehaviour
 {
 
     public string[] keyPairings;
+
+    public List<Color32> playerColors = new List<Color32>();
 
     public GameObject playerPrefab;
 
@@ -22,7 +26,13 @@ public class PlayerCreator : MonoBehaviour
             cloneScript.leftKey = keyPairings[i];
             cloneScript.rightKey = keyPairings[i+1];
 
-            cloneScript.namePlate.text = cloneScript.leftKey + "/" + cloneScript.rightKey
+            cloneScript.namePlate.text = cloneScript.leftKey + "/" + cloneScript.rightKey;
+
+            int j = Random.Range(0, playerColors.Count);
+
+            clone.GetComponent<SpriteRenderer>().color = playerColors[j];
+
+            playerColors.RemoveAt(j);
 
             i += 1;
         }
